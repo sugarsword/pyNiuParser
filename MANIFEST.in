@@ -1,0 +1,7 @@
+include pyNiuParser/depend
+include pyNiuParser/includes/*
+include pyNiuParser/LICENSE
+include pyNiuParser/niuparser.config
+include pyNiuParser/libniuparser_sdk_linux.so
+include pyNiuParser/models/*
+include pyNiuParser/tmp.config

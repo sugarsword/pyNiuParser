@@ -1,0 +1,9 @@
+chunk.model filter=lfs diff=lfs merge=lfs -text
+ner.model filter=lfs diff=lfs merge=lfs -text
+pos.crf.model filter=lfs diff=lfs merge=lfs -text
+rnn.dp.model filter=lfs diff=lfs merge=lfs -text
+srl.clas.model filter=lfs diff=lfs merge=lfs -text
+srl.iden.model filter=lfs diff=lfs merge=lfs -text
+ws.crf.model filter=lfs diff=lfs merge=lfs -text
+zpar.dp.model filter=lfs diff=lfs merge=lfs -text
+zpar.model filter=lfs diff=lfs merge=lfs -text

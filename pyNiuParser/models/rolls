@@ -1,0 +1,5 @@
+dfa_rules
+./models/regexs
+dat_rules
+./models/names
+./models/user.dic
