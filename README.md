@@ -34,7 +34,7 @@ NiuParser系统可以免费用于研究目的，但商业用途需获得商业�
 Installation may cost a lot of time.
 
 ```
-pip install -e git+git://github.com:banyh/pyNiuParser.git#egg=pyNiuParser
+pip install -e git+https://github.com/banyh/pyNiuParser#egg=pyNiuParser
 ```
 
 ## Usage
