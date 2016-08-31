@@ -34,7 +34,9 @@ NiuParser系统可以免费用于研究目的，但商业用途需获得商业�
 Installation may cost a lot of time.
 
 ```
-pip install -e git+https://github.com/banyh/pyNiuParser#egg=pyNiuParser
+git clone https://github.com/banyh/pyNiuParser
+cd pyNiuParser
+python setup.py install
 ```
 
 ## Usage
@@ -56,7 +58,7 @@ n.query(u'今天天气真好')
 #  [u'\u5929\u6c14', u'NN', u'2', u'SUB'],
 #  [u'\u771f\u597d', u'VA', u'-1', u'ROOT']]
 for word, pos, parent, relation in n.query(u'这笔烂透了'):
-     print word, pos, parent, relation
+    print word, pos, parent, relation
 # 这 DT 2 SUB
 # 笔 M 0 DEP
 # 烂透 VV -1 ROOT
