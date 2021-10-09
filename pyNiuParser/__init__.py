@@ -20,7 +20,7 @@ class NiuParser(object):
     def __init__(self):
         command = 'bash -c "./depend"'
         pwd = dirname(__file__)
-        print command, pwd
+        print (command, pwd)
         env = os.environ.copy()
         env['LD_LIBRARY_PATH'] = pwd
         subproc_args = {'stdin': subprocess.PIPE, 'stdout': subprocess.PIPE,
