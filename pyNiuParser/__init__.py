@@ -41,7 +41,7 @@ class NiuParser(object):
         while not result.startswith(u'NiuParser Init'):
             try:
                 result = self.out.readline().decode('utf8')[:-1]
-                print result
+                print (result)
             except:
                 result = ''
         self.ready = True
