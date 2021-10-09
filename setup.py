@@ -9,7 +9,7 @@ class CompileNiuParser(install):
         cmd = ['g++', 'depend.cpp', '-O3', '-o', 'depend', '-I./includes',
                '-lniuparser_sdk_linux', '-L.']
         pwd = join(dirname(__file__), 'pyNiuParser')
-        print cmd, pwd
+        print (cmd, pwd)
         subprocess.Popen(cmd, cwd=pwd) 
         install.run(self)
 
